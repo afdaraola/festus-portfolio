@@ -1,12 +1,102 @@
 <!doctype html>
-<!-- Simplified export of Festus Daramola GitHub Pages Portfolio -->
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Festus Daramola — Senior Oracle PL/SQL Developer</title>
+<meta name="description" content="Festus Daramola — Senior Oracle PL/SQL Developer. Database development, data migration, performance tuning, and banking systems specialist." />
+<meta name="theme-color" content="#121212" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {background:#0b0f12;color:#e8eef2;font-family:'Inter',sans-serif;margin:0;padding:0}
+  a {color:#4DB8FF;text-decoration:none}
+  .container {max-width:1100px;margin:auto;padding:20px}
+  header{text-align:center;padding:40px 0}
+  h1{font-size:2rem;margin:0;color:#4DB8FF}
+  .subtitle{color:#a6b0b8;margin-top:8px}
+  section{margin-top:50px}
+  .project{background:#0f1417;padding:20px;border-radius:12px;margin-bottom:16px}
+  .impact{color:#4DB8FF;font-weight:600}
+  footer{text-align:center;color:#a6b0b8;padding:30px 0;font-size:0.9rem}
+</style>
 </head>
 <body>
-<p>This is the exported GitHub Pages portfolio for Festus Daramola. Please upload this index.html file to your GitHub repository to activate GitHub Pages.</p>
+<div class="container">
+  <header>
+    <h1>Abayomi Festus Daramola</h1>
+    <div class="subtitle">Senior Oracle PL/SQL Developer — Data Migration • Performance Tuning • Banking Systems</div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I design and build high-performance database solutions for financial institutions. With over a decade of experience in Oracle PL/SQL, Python, MSSQL, DB2, data migration, and core banking integrations (Flexcube, Fiserv DNA), I deliver secure, efficient, and maintainable systems that reduce costs and accelerate operations.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Regulatory Cashlite Charge Collection Solution</h3>
+      <p>Developed customized Oracle package–driven solution to automate the collection of regulatory cashlite charges, saving the bank over <span class="impact">$10M USD</span>.</p>
+    </div>
+
+    <div class="project">
+      <h3>Memo-Loan Migration Solution</h3>
+      <p>Developed a Web Service + PL/SQL–based solution to migrate Memo-Loan Accounts from Navision to FCUBS Core Banking, saving the bank <span class="impact">$15M USD</span>.</p>
+    </div>
+
+    <div class="project">
+      <h3>Performance Tuning Initiative</h3>
+      <p>Led a major performance tuning initiative, optimizing critical PL/SQL code and improving application efficiency by 40%, resulting in faster transaction processing and improved user satisfaction.</p>
+    </div>
+
+    <div class="project">
+      <h3>Smart Teller Application — Core Banking Efficiency Project</h3>
+      <p>Part of the team that developed a Smart Teller application serving as an alternative to the Flexcube core banking system, achieving <span class="impact">$3M annual cost savings</span> through operational efficiency.</p>
+    </div>
+
+    <div class="project">
+      <h3>Data Migration Projects</h3>
+      <p>Successfully executed multiple migrations from various legacy systems to Fiserv DNA, ensuring data accuracy, integrity, and minimal downtime.</p>
+    </div>
+
+    <div class="project">
+      <h3>Mentorship Program</h3>
+      <p>Mentored junior developers across 33 African countries, enhancing SQL and PL/SQL proficiency and fostering continuous improvement.</p>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Oracle Database PL/SQL Developer Certified Professional — 2023</li>
+      <li>Oracle Database SQL Certified Associate — 2023</li>
+      <li>Oracle Cloud Data Management Foundations — 2025</li>
+      <li>Oracle Cloud Infrastructure Foundations — 2025</li>
+      <li>Oracle Cloud Infrastructure 2025 Certified Generative AI Professional — 2025</li>
+      <li>OCS Oracle Autonomous Database Cloud — 2019</li>
+      <li>OCA Oracle Database SQL Certified Expert — 2016</li>
+      <li>ITIL Foundation — 2014</li>
+    </ul>
+    <p style="font-style:italic;color:#a6b0b8;">Last updated: October 2025</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📍 Laval, QC</p>
+    <p>✉️ <a href="mailto:daramolafestus@gmail.com">daramolafestus@gmail.com</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/festus-daramola" target="_blank">LinkedIn Profile</a></p>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Abayomi Festus Daramola — Built with a clean dark design for modern professionals.
+  </footer>
+</div>
+
+<script>
+const yearEl = document.getElementById('year');
+if (yearEl) { yearEl.textContent = new Date().getFullYear(); }
+</script>
 </body>
 </html>
